@@ -220,8 +220,8 @@
 				TargetAttributes = {
 					672E9C101E976D4A0051A7A2 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = Z7F8987A93;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 3HTM7N382K;
+						ProvisioningStyle = Manual;
 					};
 					672E9C291E976D4A0051A7A2 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -437,11 +437,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z7F8987A93;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3HTM7N382K;
 				INFOPLIST_FILE = ZspMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZspMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "30a08397-e106-4790-a637-ecc5a9b0a55a";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Id";
 			};
 			name = Debug;
 		};
@@ -449,11 +452,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z7F8987A93;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZspMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZspMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -522,6 +527,7 @@
 				672E9C401E976D4A0051A7A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		672E9C411E976D4A0051A7A2 /* Build configuration list for PBXNativeTarget "ZspMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				672E9C431E976D4A0051A7A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		672E9C441E976D4A0051A7A2 /* Build configuration list for PBXNativeTarget "ZspMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +545,7 @@
 				672E9C461E976D4A0051A7A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
