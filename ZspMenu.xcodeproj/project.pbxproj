@@ -16,6 +16,7 @@
 		672E9C2F1E976D4A0051A7A2 /* ZspMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 672E9C2E1E976D4A0051A7A2 /* ZspMenuTests.m */; };
 		672E9C3A1E976D4A0051A7A2 /* ZspMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 672E9C391E976D4A0051A7A2 /* ZspMenuUITests.m */; };
 		672E9C4A1E9774040051A7A2 /* ZspMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 672E9C491E9774040051A7A2 /* ZspMenu.m */; };
+		A12C22A4AFE5B2727CAA238A /* libPods-ZspMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC184C02F01C88CE24B73CF /* libPods-ZspMenu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FFD5EF6B61B50709E566886 /* Pods-ZspMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZspMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZspMenu/Pods-ZspMenu.release.xcconfig"; sourceTree = "<group>"; };
 		672E9C111E976D4A0051A7A2 /* ZspMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZspMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		672E9C151E976D4A0051A7A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		672E9C171E976D4A0051A7A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		672E9C3B1E976D4A0051A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		672E9C481E9774040051A7A2 /* ZspMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZspMenu.h; sourceTree = "<group>"; };
 		672E9C491E9774040051A7A2 /* ZspMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZspMenu.m; sourceTree = "<group>"; };
+		683C0C842A3C590444487966 /* Pods-ZspMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZspMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZspMenu/Pods-ZspMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		7EC184C02F01C88CE24B73CF /* libPods-ZspMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZspMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12C22A4AFE5B2727CAA238A /* libPods-ZspMenu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4806EE8C5DFDA67A1852AD63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				683C0C842A3C590444487966 /* Pods-ZspMenu.debug.xcconfig */,
+				5FFD5EF6B61B50709E566886 /* Pods-ZspMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66ABEBE9D50DF9A968A09C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EC184C02F01C88CE24B73CF /* libPods-ZspMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		672E9C081E976D4A0051A7A2 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +110,8 @@
 				672E9C2D1E976D4A0051A7A2 /* ZspMenuTests */,
 				672E9C381E976D4A0051A7A2 /* ZspMenuUITests */,
 				672E9C121E976D4A0051A7A2 /* Products */,
+				4806EE8C5DFDA67A1852AD63 /* Pods */,
+				66ABEBE9D50DF9A968A09C31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 672E9C3E1E976D4A0051A7A2 /* Build configuration list for PBXNativeTarget "ZspMenu" */;
 			buildPhases = (
+				24D2C5AA9327A21098739FB0 /* [CP] Check Pods Manifest.lock */,
 				672E9C0D1E976D4A0051A7A2 /* Sources */,
 				672E9C0E1E976D4A0051A7A2 /* Frameworks */,
 				672E9C0F1E976D4A0051A7A2 /* Resources */,
+				72E5D44017120B6EFD1D1019 /* [CP] Embed Pods Frameworks */,
+				35C206FA9C96D2CE9C0D5E85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,6 +308,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24D2C5AA9327A21098739FB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZspMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35C206FA9C96D2CE9C0D5E85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZspMenu/Pods-ZspMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E5D44017120B6EFD1D1019 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZspMenu/Pods-ZspMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		672E9C0D1E976D4A0051A7A2 /* Sources */ = {
@@ -435,6 +513,7 @@
 		};
 		672E9C3F1E976D4A0051A7A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683C0C842A3C590444487966 /* Pods-ZspMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -450,6 +529,7 @@
 		};
 		672E9C401E976D4A0051A7A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FFD5EF6B61B50709E566886 /* Pods-ZspMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
