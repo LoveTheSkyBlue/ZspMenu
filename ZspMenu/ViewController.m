@@ -33,7 +33,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     // 数据
-    self.location = @[@"位置", @"推荐商圈", @"越秀区", @"天河区", @"番禺区", @"海珠区", @"白云区", @"荔湾区", @"黄埔区"];
+    self.location = @[@"位置", @"商圈", @"越秀区", @"天河区", @"番禺区", @"海珠区", @"白云区", @"荔湾区", @"黄埔区"];
     self.sort = @[@"智能排序", @"离我最近", @"好评优先", @"人气最高"];
     self.choose = @[@"筛选", @"折扣商品", @"进店领券", @"下单返券"];
     
